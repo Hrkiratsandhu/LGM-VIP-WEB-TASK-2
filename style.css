@@ -1,0 +1,121 @@
+
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat: repeat;
+    background-size:cover ;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.container
+{
+    position: relative;
+    height:200px;
+    left:0px;
+   
+}
+.header
+ {  margin-left: 0px;
+    height:150px;
+    width:100%; 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 50px;
+    font-size: 60px;
+    color:rgb(122, 95, 95);
+    
+}
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 8ch;
+    animation: typing 2s steps(8), blink .3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+.center{
+    padding-left: 5%;
+}
+.btn{
+    margin-right: 20%;
+    margin-top: -120px;
+    top:35px;
+    right:20px;
+    
+    
+}
+#getdata{
+    position: absolute;
+}
+button{
+    
+    color:black;
+    height:90px;
+    width:310px;
+    background-image: linear-gradient(rgb(228, 8, 8),rgb(231, 209, 209));
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex; 
+}
+.table
+{
+    margin: 100px;
+    width:900px;
+    height: auto;
+
+}
+table{
+    color:rgb(243, 118, 16);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    color: black;
+    font-weight: bold;
+    
+}
+table tr :hover{
+    background-color:rgb(245, 36, 36);
+
+}
+img{
+    clip-path: circle();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(81, 68, 87);
+    padding-top: 120px;
+}
+
+
+
+
